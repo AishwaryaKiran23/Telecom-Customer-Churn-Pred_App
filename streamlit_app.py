@@ -1,12 +1,7 @@
-pip install streamlit joblib pandas scikit-learn
-# requirements.txt
-streamlit
-joblib
-pandas
-scikit-learn
 import streamlit as st
 import pandas as pd
 import joblib
+
 
 # Load the trained Extra Trees model
 model = joblib.load("extra_trees_churn.pkl")
