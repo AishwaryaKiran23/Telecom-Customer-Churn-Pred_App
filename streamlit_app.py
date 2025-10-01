@@ -4,7 +4,7 @@ import joblib
 
 
 # Load the trained Extra Trees model
-model = joblib.load("extra_trees_churn.pkl")
+model = joblib.load("/content/extra_trees_churn.pkl")
 
 # Title
 st.title("📊 Telecom Customer Churn Prediction (Extra Trees Classifier)")
